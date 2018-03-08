@@ -1,0 +1,258 @@
+/*----------------------------------
+NAV BAR
+----------------------------------*/
+body {
+	margin: 0;
+	padding: 0;
+}	
+
+a {
+	text-decoration: none;
+}
+
+.navbar-container {
+	background-color: #FFA500;
+	height: 178px;
+	overflow: hidden;
+	position: fixed; 
+    width: 100%;
+    z-index: 1;
+}
+
+.title {
+	text-shadow: 3px 3px 4px rgba(0,0,0,.9);
+	font-variant: small-caps;
+	color: #4C1313;
+	letter-spacing: 2pt;
+	word-spacing: 10pt;
+	font-size: 90px;
+	text-align: left;
+	font-family: Comic Sans MS, sans-serif;
+	line-height: 1;
+    font-weight: 900;
+    padding: 35px;	
+    float: right;
+}
+	
+
+
+.navlist {
+	list-style: none;
+	padding: 8px;
+    margin: 0px;
+    overflow: hidden;
+    height: 177px; 
+}   
+
+.navlist li {
+	display: block;
+    color: #4C1313;
+    padding: 7px;
+    font-size: 40px; 
+    text-shadow: 1px 2px 4px rgba(0,0,0,.7);
+    margin-top: -7px;
+}  
+
+.logo  {
+	border-radius: 10px;
+	padding: 3px;
+	float: left;	
+}
+
+/*----------------------------------
+Background
+----------------------------------*/
+.backgroundImg {
+	background: url(../img/pizza.jpeg) no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	display: block;
+	height: 1000px;
+	color: #325B84;
+}
+
+/*--------------------------------
+Place Order
+--------------------------------*/
+.menuBody{
+	margin: 0 auto; 
+	padding: 0;
+	background-color: #4C1313;
+	text-align: center;
+	display: block;
+	border: 5px dotted #FFA500;
+	
+}
+
+.menuBody h1 {
+	margin: 0 auto;
+}
+
+.headCenter {
+	display: inline-block;
+}
+
+.order {
+	font-size: 60px;
+	text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+	font-family: comic sans MS, sans-serif;
+	color: #FFA500;
+	border: 5px ridge #FFA500;
+	margin-top: -7px;
+	width: 500px;
+
+}
+
+#btnOrder {
+	background: #FFA500;
+	border-radius: 20px;
+	box-shadow: 7px 7px 10px rgba(0,0,0,.9);
+	font-family: Georgia;
+	color: #4C1313;
+	font-size: 45px;
+	padding: 10px 40px 10px 40px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#btnOrder:hover {
+  background: #4C1313;
+  color: #FFA500;
+  
+}
+
+.menuTop {
+	display: inline-block;
+	position: relative;
+	left: 150px;
+	text-align: left;
+	height:390px;
+	width:340px;
+	border:5px 
+	solid #FFA500;
+	border-radius:5%;
+	box-shadow: 5px 5px 8px rgba(0,0,0,0.6);
+	padding: 5px;
+	font-size: 35px;
+	color: #fff;
+	margin-right: 15px;
+	margin-top: 15px; 
+	float: left;
+}		
+
+.menuTop h3 {
+	font-size: 45px;
+	text-align: center;
+	color: #4C1313;
+	margin: -5px -5px 10px -5px;
+	padding: 5px;
+	background-color: #FFA500;
+}	
+
+#ingredients {
+	display: inline-block;
+	position: relative;
+	right: 1px;
+	height: 600px;
+	width: 1100px;
+	border: 5px solid #FFA500;
+	border-radius:1%;
+	box-shadow: 5px 5px 8px rgba(0,0,0,0.6);
+	color: #fff;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-size: 30px;
+	overflow: hidden;	
+	float: left;
+}
+
+#ingredients h2 {
+	font-size: 45px;
+	text-align: center;
+	color: #4C1313;
+	margin: -5px -5px 10px -5px;
+	padding: 5px;
+	background-color: #FFA500;
+}	
+
+#showSize {
+	text-align: right;
+	top: 25px;
+	margin: 34px;
+}
+
+#showMeat {
+	text-align: right;
+	top: 25px;
+	margin: 34px;
+}
+
+#showVeggies {
+	text-align: right;
+	top: 25px;
+	margin: 34px;
+}
+
+#showCheese {
+	text-align: right;
+	top: 25px;
+	margin: 34px;
+}
+
+#showCrust {
+	text-align: right;
+	top: 25px;
+	margin: 34px;
+}
+
+#showSauce {
+	text-align: right;
+	top: 25px;
+	margin: 34px;
+}
+
+#subTotal {
+	display: inline-block;
+	position: relative;
+	left: 1px;
+	height: 600px;
+	width: 300px;
+	border: 5px solid #FFA500;
+	border-radius:1%;
+	box-shadow: 5px 5px 8px rgba(0,0,0,0.6);
+	color: #fff;
+	margin-left: 0px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-size: 30px;
+	overflow: hidden;	
+	float: right;
+}
+
+#showText2 {
+	top: 25px;
+	right: 250px;
+	text-align: left;
+	margin: 34px;
+}
+
+#subTotal h2 {
+	font-size: 45px;
+	text-align: center;
+	color: #4C1313;
+	margin: -5px -5px 10px -5px;
+	padding: 5px;
+	background-color: #FFA500;
+}	
+
+#totalPrice {
+	text-align: left;
+	position: relative;
+    left: 26px;
+    font-size: 40px;
+    
+}    
